@@ -49,3 +49,21 @@ tests:
       name: HassLightSet
       slots:
         color: blue
+  - sentences:
+      - Stelle die Farbe im Schlafzimmer auf rosa
+    intent:
+      name: HassLightSet
+      slots:
+        area: Schlafzimmer
+        color: pink
+    response:
+      - "Farbe in schlafzimmer auf rosa gesetzt"
+  - sentences:
+      - Stelle die Farbe im Schlafzimmer auf türkis
+    intent:
+      name: HassLightSet
+      slots:
+        area: Schlafzimmer
+        color: turquoise
+    response:
+      - "Farbe in schlafzimmer auf türkis gesetzt"
